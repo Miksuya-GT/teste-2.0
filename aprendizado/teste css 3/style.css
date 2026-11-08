@@ -1,0 +1,18 @@
+h1 {
+    font-family: roboto;
+    font-size: 20pt;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+span {
+    font-weight: bold;
+    text-transform: lowercase;
+}
+
+p {
+    font-family: young serif;
+    font-style: italic;
+    text-align: justify;
+}

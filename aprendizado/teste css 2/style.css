@@ -1,0 +1,23 @@
+:root {
+--green: hsl(147, 50%, 47%)
+}
+
+div {
+    background: blue;
+}
+
+p {
+    color: #fff;
+}
+
+#rgb {
+    width: 100px;
+    height: 100px;
+    background: rgba(104, 151, 227, 0.2);
+}
+
+#hsl {
+    width: 100px;
+    height: 100px;
+    background-color: var(--green);
+}
