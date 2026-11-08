@@ -1,0 +1,85 @@
+body { margin: 0; background: black; color: white; font-family: Arial, sans-serif; }
+
+.rodape { width: 100%; min-height: 100vh; position: relative; }
+
+.rodape::before {
+    content: "";
+    position: absolute;
+    background: #f5c400;
+    width: 22.6%;
+    top: 0;
+    bottom: 0;
+    left: 38.7%;
+}
+
+.localizacao {
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    width: 30%;
+    z-index: 1;
+}
+
+.localizacao h3, .redes-sociais h3 {
+    font-size: 1.7vw;
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+
+.localizacao address {
+    font-size: 1.6vw;
+    font-style: normal;
+    line-height: 1.8;
+}
+
+.redes-sociais { margin-top: 18vh; }
+
+.redes-sociais img { width: 300px; max-width: 100%; margin-top: 15px; }
+
+.localizacao p { font-size: 1.5vw; margin-top: 6vh; }
+
+.formulario {
+    position: absolute;
+    top: 15%;
+    left: 48%;
+    width: 44.3%;
+    z-index: 1;
+}
+
+.formulario h2 {
+    font-size: 2.8vw;
+    font-weight: normal;
+    letter-spacing: 3px;
+    white-space: nowrap;
+    margin-bottom: 5vh;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+.formulario input, .formulario textarea {
+    width: 100%;
+    padding: 1vw;
+    box-sizing: border-box;
+    font-size: 1.3vw;
+    border: none;
+    background: #eee;
+}
+
+.formulario input { height: 7.5vh; }
+
+.formulario textarea { height: 20vh; resize: none; }
+
+.formulario button {
+    width: 10.7vw;
+    height: 8vh;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    font-size: 1vw;
+    letter-spacing: 3px;
+    cursor: pointer;
+}

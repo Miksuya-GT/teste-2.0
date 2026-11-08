@@ -1,0 +1,32 @@
+.container {
+    display: grid;
+    gap: 50px;
+    position: relative;
+    top: 30px;
+    grid-template-columns: repeat(3, 270px);
+    justify-content: center;
+}
+
+.pokemon {
+    width: 250px;
+    height: 350px;
+    border: 5px solid black;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+    background-color: orange;
+}
+
+.pokemon img {
+    width: 220px;
+    height: 250px;
+    object-fit: contain;
+}
+
+.pokemon h2 {
+    margin-top: 20px;
+}
+
+body {
+    background-color: cadetblue;
+}

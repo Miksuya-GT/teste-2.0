@@ -1,0 +1,36 @@
+.container {
+    text-align: center;
+}
+
+img {
+    width: 30em;
+}
+
+a {
+    display: inline-block;
+    padding: 15px 15px;
+    border-radius: 25px;
+    background-color: #43aaf5;
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+}
+
+.option {
+    background-color: black;
+}
+
+.rodape {
+    background-color: black;
+    color: white;
+    padding:15px 0;
+}
+
+body {
+    margin: 0;
+}
+
+.botao-final {
+    margin-bottom: 50px;
+    background-color: black;
+}

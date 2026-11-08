@@ -1,0 +1,97 @@
+.container {
+    border: 2px solid;
+    border-radius: 30px;
+    height: 100px;
+    width: 500px;
+    position: relative;
+    top: 20px;
+    right: -700px;
+    background-color: #fff;
+}
+
+.pokeball {
+    height: 70px;
+    position: relative;
+    top: -75px;
+    right: -50px;
+}
+
+.pokeball2 {
+    height: 70px;
+    position: relative;
+    top: -75px;
+    right: -310px;
+}
+
+h1 {
+    position: relative;
+    right: -150px;
+}
+
+.container2 {
+    border: 2px solid;
+    border-radius: 30px;
+    width: 440px;
+    height: 630px;
+    background-color: #fff;
+    position: relative;
+    top: 120px;
+}
+
+.figure {
+    position: relative;
+    top: 10px;
+    right: -90px;
+}
+
+.pokemon {
+    width:200px;
+    position: relative;
+    right: -130px;
+    top: 15px;
+}
+
+.container3 {
+    border: 2px solid;
+    border-radius: 30px;
+    width: 400px;
+    height: px;
+    background-color: #c6c7c4;
+    position: relative;
+    top: 30px;
+    right: -20px;
+}
+
+h4 {
+    position: relative;
+    top: 10px;
+    right: -160px;
+}
+
+.lista {
+    position: relative;
+    top: 10px;
+}
+
+.botao {
+    position: relative;
+    top: 65px;
+    right: -155px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 65, 65);
+    color: white;
+    border-radius: 15px;
+}
+
+body {
+    background-color: rgb(255, 65, 65);
+}
+
+.geral {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    gap: 120px;
+    position: relative;
+    right: -260px;
+}
